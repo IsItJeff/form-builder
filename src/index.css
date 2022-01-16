@@ -15,18 +15,22 @@ code {
 }
 
 header{
+  border: 1px solid black;
   background-color: whitesmoke;
+  padding: 5px 0px;
 }
 
 h1{
   font-size: 14px;
   text-align: center;
-  border: 1px solid black;
 
 }
 
 nav{
-
+  background: whitesmoke;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
 }
 
 h2{
@@ -41,6 +45,14 @@ main{
   grid-gap: 15px;
 }
 
+.input-option-container{
+  border: 1px solid black;
+  background:whitesmoke;
+  grid-column: 1 / span 2;
+  text-align: center;
+  padding: 5px;
+}
+
 .input-option-btn{
   margin: 1px 3px;
   font-size: 8px;
@@ -48,19 +60,25 @@ main{
   width: 10%;
 }
 
-.input-option-container{
-  border: 1px solid black;
-  background:whitesmoke;
-  grid-column: 1 / span 2;
-  padding: 5px;
-}
 
 .input-viewer-container{
   border: 1px solid black;
   background-color: whitesmoke;
 }
 
+.input-viwer-main{
+  background: grey;
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
 .input-editor-container{
   border: 1px solid black;
   background-color: whitesmoke;
+}
+
+.form-layout-container{
+  background: white;
 }
