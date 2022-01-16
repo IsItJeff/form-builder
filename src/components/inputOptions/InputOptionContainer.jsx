@@ -26,13 +26,13 @@ const InputOptionContainer = () => {
     ]
 
     return(
-        <div>
+        <div className="input-option-container">
             <div>
                 Select an input type:
             </div>
             {inputTypes.map((input,index) => {
                 return(
-                    <button key={input.type}>
+                    <button key={input.type} className="input-option-btn">
                         {input.type}
                     </button>
             )})}
