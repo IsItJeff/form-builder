@@ -137,6 +137,9 @@ export const InputTypes = [
 const addButtonField = () => {
     const obj = {
         type:"button",
+        label:null,
+        group:null,
+        name:null,
         value:"Click Me"
     }
     return obj
@@ -145,6 +148,9 @@ const addButtonField = () => {
 const addCheckboxField = () => {
     const obj = {
         type:"checkbox",
+        label:"Checkbox",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -153,6 +159,9 @@ const addCheckboxField = () => {
 const addColorField = () => {
     const obj = {
         type:"color",
+        label:"Color",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -161,6 +170,9 @@ const addColorField = () => {
 const addDateField = () => {
     const obj = {
         type:"date",
+        label:"Date",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -169,6 +181,9 @@ const addDateField = () => {
 const addDateTimeLocalField = () => {
     const obj = {
         type:"datetime-local",
+        label:"Date Time local",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -177,6 +192,9 @@ const addDateTimeLocalField = () => {
 const addEmailField = () => {
     const obj = {
         type:"email",
+        label:"Email",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -185,6 +203,9 @@ const addEmailField = () => {
 const addFileField = () => {
     const obj = {
         type:"file",
+        label:"File",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -193,6 +214,9 @@ const addFileField = () => {
 const addHiddenField = () => {
     const obj = {
         type:"hidden",
+        label:"Hidden",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -201,6 +225,9 @@ const addHiddenField = () => {
 const addImageField = () => {
     const obj = {
         type:"image",
+        label:"Image",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -209,6 +236,9 @@ const addImageField = () => {
 const addMonthField = () => {
     const obj = {
         type:"month",
+        label:"Month",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -217,6 +247,9 @@ const addMonthField = () => {
 const addNumberField = () => {
     const obj = {
         type:"number",
+        label:"Number",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -225,6 +258,9 @@ const addNumberField = () => {
 const addPasswordField = () => {
     const obj = {
         type:"password",
+        label:"Password",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -233,6 +269,9 @@ const addPasswordField = () => {
 const addRadioField = () => {
     const obj = {
         type:"radio",
+        label:"Radio",
+        group:null,
+        name:"null",
         value:""
     }
     return obj
@@ -241,6 +280,9 @@ const addRadioField = () => {
 const addRangeField = () => {
     const obj = {
         type:"range",
+        label:"Range",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -249,6 +291,9 @@ const addRangeField = () => {
 const addResetField = () => {
     const obj = {
         type:"reset",
+        label:"Reset",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -257,6 +302,9 @@ const addResetField = () => {
 const addSearchField = () => {
     const obj = {
         type:"search",
+        label:"Search",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -265,6 +313,9 @@ const addSearchField = () => {
 const addSubmitField = () => {
     const obj = {
         type:"submit",
+        label:"Submit",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -273,6 +324,9 @@ const addSubmitField = () => {
 const addTelField = () => {
     const obj = {
         type:"tel",
+        label:"Tel",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -281,6 +335,9 @@ const addTelField = () => {
 const addTextField = () => {
     const obj = {
         type:"text",
+        label:"TextField",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -289,6 +346,9 @@ const addTextField = () => {
 const addTimeField = () => {
     const obj = {
         type:"time",
+        label:"Time",
+        group:null,
+        name:null,
         value:""
     }
     return obj
@@ -297,14 +357,20 @@ const addTimeField = () => {
 const addURLField = () => {
     const obj = {
         type:"url",
+        label:"URL",
+        group:null,
+        name:null,
         value:""
     }
-    return obj
+    return 
 }
 
 const addWeekField = () => {
     const obj = {
         type:"week",
+        label:"Week",
+        group:null,
+        name:null,
         value:""
     }
     return obj
