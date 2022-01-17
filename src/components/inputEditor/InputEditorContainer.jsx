@@ -1,8 +1,10 @@
-const InputEditorContainer = ({setFieldsData, fieldsData}) => {
+const InputEditorContainer = ({setFieldsData, fieldsData , fieldData}) => {
+    
     const addRow = () =>{
-        setFieldsData([...fieldsData, {}])
+        setFieldsData([...fieldsData, fieldData])
     }
 
+    
     return(
         <div className="input-editor-container">
             <h2>

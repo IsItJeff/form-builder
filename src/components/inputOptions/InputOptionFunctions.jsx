@@ -1,112 +1,227 @@
-const inputTypes = [
-    {type:"button"},
-    {type:"checkbox"},
-    {type:"color"},
-    {type:"date"},
-    {type:"datetime-local"},
-    {type:"email"},
-    {type:"file"},
-    {type:"hidden"},
-    {type:"image"},
-    {type:"month"},
-    {type:"number"},
-    {type:"password"},
-    {type:"radio"},
-    {type:"range"},
-    {type:"reset"},
-    {type:"search"},
-    {type:"submit"},
-    {type:"tel"},
-    {type:"text"},
-    {type:"time"},
-    {type:"url"},
-    {type:"week"}
-]
+export const InputTypes = [
+        {
+            type:"button",
+            functionCall: function(){
+                return addButtonField()
+            }
+        },
+        {
+            
+            type:"checkbox",
+            functionCall: function(){
+                return addCheckboxField()
+            }
+        },
+        {
+            type:"color",
+            functionCall: function(){
+                return addColorField()
+            }
+        },
+        {
+            type:"date",
+            functionCall: function(){
+                return addDateField()
+            }
+        },
+        {   
+            type:"datetime-local",
+            functionCall: function(){
+                return addDateTimeLocalField()
+            }
+        },
+        {
+            type:"email",
+            functionCall: function(){
+                return addEmailField()
+            }
+        },
+        {
+            type:"file",
+            functionCall: function(){
+                return addFileField()
+            }
+        },
+        {
+            type:"hidden",
+            functionCall: function(){
+                return addHiddenField()
+            }
+        },
+        {   
+            type:"image",
+            functionCall: function(){
+                return addImageField()
+            }
+        },
+        {
+            type:"month",
+            functionCall: function(){
+                return addMonthField()
+            }
+        },
+        {
+            type:"number",
+            functionCall: function(){
+                return addNumberField()
+            }
+        },
+        {   
+            type:"password",
+            functionCall: function(){
+                return addPasswordField()
+            }
+        },
+        {   
+            type:"radio",
+            functionCall: function(){
+                return addRadioField()
+            }
+        },
+        {
+            type:"range",
+            functionCall: function(){
+                return addRangeField()
+            }
+        },
+        {
+            type:"reset",
+            functionCall: function(){
+                return addResetField()
+            }
+        },
+        {
+            type:"search",
+            functionCall: function(){
+                return addSearchField()
+            }
+        },
+        {
+            type:"submit",
+            functionCall: function(){
+                return addSubmitField()
+            }
+        },
+        {   
+            type:"tel",
+            functionCall: function(){
+                return addTelField()
+            }
+        },
+        {
+            type:"text",
+            functionCall: function(){
+                return addTextField()
+            }
+        },
+        {
+            type:"time",
+            functionCall: function(){
+                return addTimeField()
+            }
+        },
+        {
+            type:"url",
+            functionCall: function(){
+                return addURLField()
+            }
+        },
+        {
+            type:"week",
+            functionCall: function(){
+                return addWeekField()
+            }
+        }
+    ]
 
-export const addButtonField = () => {
-
+const addButtonField = () => {
+    const obj = {
+        type:"button",
+        value:"Click Me"
+    }
+    return obj
 }
 
-export const addCheckboxField = () => {
+const addCheckboxField = () => {
     
 }
 
-export const addColorField = () => {
+const addColorField = () => {
 
 }
 
-export const addDateField = () => {
+const addDateField = () => {
 
 }
 
-export const addDateTimeLocalField = () => {
+const addDateTimeLocalField = () => {
 
 }
 
-export const addEmailField = () => {
+const addEmailField = () => {
 
 }
 
-export const addFileField = () => {
+const addFileField = () => {
 
 }
 
-export const addHiddenField = () => {
+const addHiddenField = () => {
 
 }
 
-export const addImageField = () => {
+const addImageField = () => {
 
 }
 
-export const addMonthField = () => {
+const addMonthField = () => {
 
 }
 
-export const addNumberField = () => {
+const addNumberField = () => {
 
 }
 
-export const addPasswordField = () =>{
+const addPasswordField = () => {
 
 }
 
-export const addRadioField = () => {
+const addRadioField = () => {
 
 }
 
-export const addRangeField = () => {
+const addRangeField = () => {
 
 }
 
-export const addResetField = () => {
+const addResetField = () => {
     
 }
 
-export const addSearchField = () => {
+const addSearchField = () => {
 
 }
 
-export const addSubmitField = () => {
+const addSubmitField = () => {
 
 }
 
-export const addTelField = () => {
+const addTelField = () => {
 
 }
 
-export const addTextField = () => {
+const addTextField = () => {
 
 }
 
-export const addTimeField = () => {
+const addTimeField = () => {
 
 }
 
-export const addURLField = () => {
+const addURLField = () => {
 
 }
 
-export const addWeekField = () => {
+const addWeekField = () => {
 
 }
